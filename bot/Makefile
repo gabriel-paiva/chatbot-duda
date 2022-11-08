@@ -18,7 +18,8 @@ clean:
 
 install:
 	pip install --upgrade pip && \
-	pip install -r requirements.txt
+	pip install -r requirements.txt && \
+	pip install --upgrade aio-pika
 
 # RUN
 api:
