@@ -1,10 +1,10 @@
-version: "3.1"
+version: '3.1'
 rules:
   # Response selectors
-  - rule: explica
-    steps:
-      - intent: explica
-      - action: utter_explica
+  # - rule: explica
+  #   steps:
+  #     - intent: explica
+  #     - action: utter_explica
   # forms
   - rule: Pedir para reformular a mensagem caso NLU não entenda
     steps:
