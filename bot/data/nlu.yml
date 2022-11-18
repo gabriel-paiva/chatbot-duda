@@ -18,19 +18,13 @@ nlu:
       - Até mais, bot
   - intent: onde_voce_mora
     examples: |
-      - onde voce [mora](vive)
-      - onde voce [vive](vive)
+      - onde voce mora
+      - onde voce vive
       - onde voce habita
-      - em que lugar voce [vive](vive)
-      - [onde voce esta](vive) agora
-      - voce [mora](vive) no computador
-      - voce [vive](vive) na internet
-      - [onde vc esta](vive)
-      - qual é o seu [habitat](vive)
-      - qual é o seu [endereço](vive)
-      - qual e o seu [endereco](vive)
-      - qual o seu [endereço](vive)
-      - qual o seu [endereco](vive)
+      - em que lugar voce mora
+      - em que lugar voce vive
+      - qual o seu endereço
+      - qual o seu endereco
   - intent: genero
     examples: |
       - voce é [homem](genero) ou [mulher](genero)?
@@ -55,20 +49,6 @@ nlu:
       - tô [triste](triste)
       - tô [infeliz](triste)
       - tô [frustrado](triste)
-  - intent: historia
-    examples: |
-      - me fala uma [história](historia)
-      - me conta uma [história](historia)
-      - [historia](historia)
-      - [história](historia)
-      - conta pra mim uma [historinha](historia)
-      - fala uma [historia](historia) ai
-      - conta uma [história](historia) pra dormir
-      - conta uma [historia](historia) pra dormir
-      - me conta uma [experiência](historia) sua
-      - me conta uma [experiencia](historia)
-      - me conta uma [historinha](historia)
-      - me conta uma [estória](historia)
   - intent: elogios
     examples: |
       - você é muito educado
@@ -174,3 +154,13 @@ nlu:
       - Que loucura está acontecendo?!
       - Não quero compartilhar meus dados
       - Não quero mais informar meus dados
+  - intent: onde_fica_cefpa
+    examples: |
+      - Onde fica a CEFPA?
+      - onde fica a CEFPA
+      - Endereço da CEFPA
+      - endereço CEFPA
+      - em qual bloco fica a CEFPA
+      - em qual sala fica a CEFPA
+      - localização da CEFPA
+      - qual é a localização da CEFPA

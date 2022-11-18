@@ -13,6 +13,7 @@ intents:
   - afirmar
   - negar
   - cancelar
+  - onde_fica_cefpa
 
 entities:
   - meajuda
@@ -43,8 +44,8 @@ responses:
         Obrigada! É sempre bom dar e receber elogios :P
   utter_cumprimentar:
     - text: |
-        Oi, eu sou um bot, um assistente virtual!
-        Uhuu! Manda aí um assunto que te interessa :)
+        Oi, eu sou a Duda, uma assistente virtual!
+        Posso te ajudar com dúvidas sobre a Universidade Católica de Brasília. Tem alguma pergunta?
         Para aprender como você pode interagir comigo basta escrever meajuda.
   utter_despedir:
     - text: |
@@ -73,39 +74,24 @@ responses:
         Eu sou um robô, uai
   utter_onde_voce_mora:
     - text: |
-        Eu estou em um lugar legal
-
-        Difícil de explicar para humanos como você $user.
-    - text: |
         Estou morando em um chip de memória RAM
 
         Mas é temporário
 
         Só até conseguir achar uma memória cache...
-  utter_triste:
     - text: |
-        Não desanima
-
-        Deixa a tristeza pra lá
-
-        Aguenta firme, que a vida vai melhorar
+        Eu moro na Universidade Católica de Brasília, Campus I, Bloco B, Sala 205.
+  utter_onde_fica_cefpa:
+    - text: O Centro de Formação em Psicologia Aplicada (CEFPA) da UCB (Câmpus I – QS 7 – Lote 1 –Pistão Sul – DF) fica no Bloco M, sala 008.
+  utter_triste:
     - text: |
         Sinto muito =/
 
-        Se houver algo em que possa te ajudar
+        Você sabia que a Católica disponibiliza atendimento psicológico gratuito à comunidade?
 
-        É só falar!! =)
-    - text: |
-        Tenta tirar um cochilo
+        Esse serviço é oferecido regularmente pelo Centro de Formação em Psicologia Aplicada (CEFPA), do Curso de Psicologia.
 
-        É importante
-
-        E faz bem pra pele ;)
-  utter_historia:
-    - text: |
-        Eu costumava contar a historia do João e seu bot feijão
-
-        Mas sempre os androids acabavam dormindo e sonhando com ovelhas eletricas =x
+        Se quiser saber mais, é só ligar no telefone (61) 3356-9328.
   utter_risada:
     - text: |
         Hahahaha... 
@@ -121,7 +107,7 @@ responses:
     - text: Gostaria de falar sobre algo mais?
   utter_me_ajuda:
     - text: |
-        Eu sou um chatbot e sei falar de assuntos relacionados à vida dos estudantes da Universidade Católica de Brasília.
+        Eu sou a Duda e sei falar de assuntos relacionados à vida dos estudantes da Universidade Católica de Brasília.
 
         Por exemplo, sei responder dúvidas sobre: estágios, financeiro, atividades complementares, ect.
 
@@ -129,7 +115,7 @@ responses:
   utter_pergunta_cancelar:
     - text: Entendi. Você deseja cancelar?
 
-    # utters fallback
+  # utters fallback
   utter_nlu_fallback:
     - text: Desculpe, não consegui entender sua mensagem. Pode me perguntar de outra forma?
   utter_core_fallback:

@@ -29,11 +29,6 @@ stories:
       - intent: triste
       - action: utter_triste
       - action: utter_continuar_conversa
-  - story: historia
-    steps:
-      - intent: historia
-      - action: utter_historia
-      - action: utter_continuar_conversa
   - story: Tudo Bem
     steps:
       - intent: tudo_bem
@@ -47,3 +42,13 @@ stories:
     steps:
       - intent: me_ajuda
       - action: utter_me_ajuda
+  - story: onde_fica_cefpa
+    steps:
+      - intent: onde_fica_cefpa
+      - action: utter_onde_fica_cefpa
+  - story: triste_cefpa
+    steps:
+      - intent: triste
+      - action: utter_triste
+      - intent: onde_fica_cefpa
+      - action: utter_onde_fica_cefpa
