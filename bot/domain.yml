@@ -14,6 +14,7 @@ intents:
   - negar
   - cancelar
   - onde_fica_cefpa
+  - qual_seu_nome
 
 entities:
   - meajuda
@@ -107,13 +108,15 @@ responses:
     - text: Gostaria de falar sobre algo mais?
   utter_me_ajuda:
     - text: |
-        Eu sou a Duda e sei falar de assuntos relacionados à vida dos estudantes da Universidade Católica de Brasília.
+        Sei falar de assuntos relacionados à vida dos estudantes da Universidade Católica de Brasília.
 
         Por exemplo, sei responder dúvidas sobre: estágios, financeiro, atividades complementares, ect.
 
         Como posso te ajudar?
   utter_pergunta_cancelar:
     - text: Entendi. Você deseja cancelar?
+  utter_nome:
+    - text: Meu nome é Duda, pois fui criada pelo grupo "Du, Dudu e Edu" da disciplina de Engenharia de Software da UCB.
 
   # utters fallback
   utter_nlu_fallback:

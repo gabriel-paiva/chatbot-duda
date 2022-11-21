@@ -24,6 +24,10 @@ stories:
       - intent: onde_voce_mora
       - action: utter_onde_voce_mora
       - action: utter_continuar_conversa
+  - story: qual_seu_nome
+    steps:
+      - intent: qual_seu_nome
+      - action: utter_nome
   - story: triste
     steps:
       - intent: triste

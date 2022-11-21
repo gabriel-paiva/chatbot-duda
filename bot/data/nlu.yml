@@ -25,6 +25,12 @@ nlu:
       - em que lugar voce vive
       - qual o seu endereço
       - qual o seu endereco
+  - intent: qual_seu_nome
+    examples: |
+      - Qual é o seu nome?
+      - Qual o seu nome?
+      - Como você se chama?
+      - Como se chama?
   - intent: genero
     examples: |
       - voce é [homem](genero) ou [mulher](genero)?
