@@ -64,3 +64,19 @@ stories:
     steps:
       - intent: oque_e_integra
       - action: utter_oque_e_integra
+  - story: onde_bolsas_estudo
+    steps:
+      - intent: onde_bolsas_estudo
+      - action: utter_onde_bolsas_estudo
+  - story: quem_bolsas_estudo
+    steps:
+      - intent: quem_bolsas_estudo
+      - action: utter_quem_bolsas_estudo
+  - story: processo_bolsa_estudo
+    steps:
+      - intent: processo_bolsa_estudo
+      - action: utter_processo_bolsa_estudo
+  - story: percentual_bolsa_estudo
+    steps:
+      - intent: percentual_bolsa_estudo
+      - action: utter_percentual_bolsa_estudo

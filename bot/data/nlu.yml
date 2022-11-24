@@ -189,3 +189,26 @@ nlu:
       - telefone do integra
       - endereço do integra
       - email do integra
+  - intent: onde_bolsas_estudo
+    examples: |
+      - como conseguir uma bolsa de estudos
+      - onde arranjar uma bolsa de estudos
+      - como consigo uma bolsa
+      - onde arranjo uma bolsa
+  - intent: quem_bolsas_estudo
+    examples: |
+      - quem pode concorrer a uma bolsa social
+      - quem pode conseguir uma bolsa
+      - quem é elegível para bolsa
+      - pre requisitos da bolsa de estudos
+      - pré-requisitos da bolsa social
+  - intent: processo_bolsa_estudo
+    examples: |
+      - como é o processo seletivo para conseguir bolsa de estudos
+      - processo bolsa de estudos
+      - como é o processo da bolsa de estudos
+  - intent: percentual_bolsa_estudo
+    examples: |
+      - qual o percentual de bolsa de estudos
+      - quantos por cento de bolsa de estudos
+      - qual a porcentagem da bolsa de estudos

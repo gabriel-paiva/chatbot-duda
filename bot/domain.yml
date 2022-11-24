@@ -17,6 +17,10 @@ intents:
   - qual_seu_nome
   - onde_encontrar_estagio
   - oque_e_integra
+  - onde_bolsas_estudo
+  - quem_bolsas_estudo
+  - processo_bolsa_estudo
+  - percentual_bolsa_estudo
 
 entities:
   - meajuda
@@ -85,7 +89,8 @@ responses:
     - text: |
         Eu moro na Universidade Católica de Brasília, Campus I, Bloco B, Sala 205.
   utter_onde_fica_cefpa:
-    - text: O Centro de Formação em Psicologia Aplicada (CEFPA) da UCB (Câmpus I – QS 7 – Lote 1 –Pistão Sul – DF) fica no Bloco M, sala 008.
+    - text: |
+        O Centro de Formação em Psicologia Aplicada (CEFPA) da UCB (Câmpus I – QS 7 – Lote 1 –Pistão Sul – DF) fica no Bloco M, sala 008.
   utter_triste:
     - text: |
         Sinto muito =/
@@ -116,11 +121,14 @@ responses:
 
         Como posso te ajudar?
   utter_pergunta_cancelar:
-    - text: Entendi. Você deseja cancelar?
+    - text: |
+        Entendi. Você deseja cancelar?
   utter_nome:
-    - text: Meu nome é Duda, pois fui criada pelo grupo "Du, Dudu e Edu" da disciplina de Engenharia de Software da UCB.
+    - text: |
+        Meu nome é Duda, pois fui criada pelo grupo "Du, Dudu e Edu" da disciplina de Engenharia de Software da UCB.
   utter_onde_encontrar_estagio:
-    - text: Você pode conseguir um estágio atraǘes do Integra.
+    - text: |
+        Você pode conseguir um estágio atraǘes do Integra.
 
         É uma plataforma que procura auxiliar os estudantes proporcionando oportunidades de aprendizado e de efetivação no mercado de trabalho.
 
@@ -130,7 +138,7 @@ responses:
 
         Ou contatar o e-mail integra@ucb.br
   utter_oque_e_integra:
-    - text:
+    - text: |
         O projeto UCB Integra tem o objetivo de contribuir na formação dos nossos estudantes através de ações, palestras, oportunidades de estágio e outras atividades.
 
         O Integra fica no Câmpus Taguatinga, Bloco M, Sala 115.
@@ -138,12 +146,46 @@ responses:
         Voce pode entrar em contato pelo e-mail integra@ucb.br
 
         Ou por telefone 3356-9076 ou 3356-9483
+  utter_onde_bolsas_estudo:
+    - text: |
+        A Bolsa Social da UCB é uma modalidade de bolsa filantrópica.
+
+        Normalmente é disponibilizada aos estudantes regularmente matriculados na Universidade.
+
+        Os requisitos são publicados em edital próprio no site da Católica.
+
+        Para mais informações entre em contato pelo telefone 61 3356-9058/9498 ou procure a sala Sala F-25.
+
+        Você também pode me perguntar sobre o processo para conseguir de bolsa de estudos.
+  utter_quem_bolsas_estudo:
+    - text: |
+        Os pré-requisitos para concorrer a uma das bolsas são divulgados em edital próprio, a cada semestre. 
+
+        Entre as exigências, estão:
+
+        1. Não ter vínculo com outras instituições de ensino, públicas ou privadas;
+        2. Não ter concluído nenhum curso de graduação;
+        3. Atender aos critérios de rendimento acadêmico;
+        4. Comprovar renda per capita de até 3 salários mínimos para bolsas de 50%;
+        5. Não ser beneficiário de bolsas de estudo de origem governamental.
+  utter_processo_bolsa_estudo:
+    - text: |
+        Deve-se ingressar no Sistema de Seleção de Bolsista Social e realizar a inscrição, fornecendo os dados solicitados e apresentando os documentos requeridos. 
+
+        Poderá ser solicitado ainda uma entrevista com um assistente social designado pela instituição para esclarecimentos sobre o contexto socioeconômico vivenciado pelo candidato. 
+
+        Documentos complementares também podem ser solicitados.
+  utter_percentual_bolsa_estudo:
+    - text: |
+        A bolsa pode ser concedida no percentual de 50% e 100%, a depender da análise socioeconômica em atenção à Lei 12.101/2009.
 
   # utters fallback
   utter_nlu_fallback:
-    - text: Desculpe, não consegui entender sua mensagem. Pode me perguntar de outra forma?
+    - text: |
+        Desculpe, não consegui entender sua mensagem. Pode me perguntar de outra forma?
   utter_core_fallback:
-    - text: Desculpe, não consegui encontrar uma resposta pra sua mensagem. Digite /restart para recomeçar a conversa.
+    - text: |
+        Desculpe, não consegui encontrar uma resposta pra sua mensagem. Digite /restart para recomeçar a conversa.
 
 session_config:
   session_expiration_time: 60
