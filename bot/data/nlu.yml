@@ -212,3 +212,10 @@ nlu:
       - qual o percentual de bolsa de estudos
       - quantos por cento de bolsa de estudos
       - qual a porcentagem da bolsa de estudos
+  - intent: quando_bolsa_estudo
+    examples: |
+      - quando é a renovação da bolsa de estudos
+      - quando é a concessão da bolsa de estudos
+      - quando posso pedir a bolsa social
+      - quando posso renovar a bolsa de estudos
+      - quando posso pedir a renovação da bolsa

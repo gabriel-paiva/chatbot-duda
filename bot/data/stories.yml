@@ -80,3 +80,7 @@ stories:
     steps:
       - intent: percentual_bolsa_estudo
       - action: utter_percentual_bolsa_estudo
+  - story: quando_bolsa_estudo
+    steps:
+      - intent: quando_bolsa_estudo
+      - action: utter_quando_bolsa_estudo

@@ -21,6 +21,7 @@ intents:
   - quem_bolsas_estudo
   - processo_bolsa_estudo
   - percentual_bolsa_estudo
+  - quando_bolsa_estudo
 
 entities:
   - meajuda
@@ -178,6 +179,9 @@ responses:
   utter_percentual_bolsa_estudo:
     - text: |
         A bolsa pode ser concedida no percentual de 50% e 100%, a depender da análise socioeconômica em atenção à Lei 12.101/2009.
+  utter_quando_bolsa_estudo:
+    - text: |
+        A renovação da bolsa é anual, mas a concessão não há período fixo.
 
   # utters fallback
   utter_nlu_fallback:
