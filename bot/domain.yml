@@ -15,6 +15,8 @@ intents:
   - cancelar
   - onde_fica_cefpa
   - qual_seu_nome
+  - onde_encontrar_estagio
+  - oque_e_integra
 
 entities:
   - meajuda
@@ -117,6 +119,25 @@ responses:
     - text: Entendi. Você deseja cancelar?
   utter_nome:
     - text: Meu nome é Duda, pois fui criada pelo grupo "Du, Dudu e Edu" da disciplina de Engenharia de Software da UCB.
+  utter_onde_encontrar_estagio:
+    - text: Você pode conseguir um estágio atraǘes do Integra.
+
+        É uma plataforma que procura auxiliar os estudantes proporcionando oportunidades de aprendizado e de efetivação no mercado de trabalho.
+
+        As vagas de estágio e de emprego são divulgadas no site e nas redes sociais da Universidade.
+
+        Se precisar de mais informações pode ligar no número 3356-9076 ou 3356-9483
+
+        Ou contatar o e-mail integra@ucb.br
+  utter_oque_e_integra:
+    - text:
+        O projeto UCB Integra tem o objetivo de contribuir na formação dos nossos estudantes através de ações, palestras, oportunidades de estágio e outras atividades.
+
+        O Integra fica no Câmpus Taguatinga, Bloco M, Sala 115.
+
+        Voce pode entrar em contato pelo e-mail integra@ucb.br
+
+        Ou por telefone 3356-9076 ou 3356-9483
 
   # utters fallback
   utter_nlu_fallback:

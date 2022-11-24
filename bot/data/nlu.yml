@@ -170,3 +170,22 @@ nlu:
       - em qual sala fica a CEFPA
       - localização da CEFPA
       - qual é a localização da CEFPA
+  - intent: onde_encontrar_estagio
+    examples: |
+      - como encontrar vagas de estagio
+      - como conseguir um estagio
+      - como consigo um estagio
+      - onde arrumar um estagio
+      - onde arranjo um estagio
+      - como faço para conseguir um estagio
+  - intent: oque_e_integra
+    examples: |
+      - o que é o ucb integra
+      - o que é o integra
+      - o que o integra faz
+      - pra que serve o integra
+      - onde fica o integra
+      - contato do integra
+      - telefone do integra
+      - endereço do integra
+      - email do integra

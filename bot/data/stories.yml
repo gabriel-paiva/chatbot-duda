@@ -56,3 +56,11 @@ stories:
       - action: utter_triste
       - intent: onde_fica_cefpa
       - action: utter_onde_fica_cefpa
+  - story: onde_encontrar_estagio
+    steps:
+      - intent: onde_encontrar_estagio
+      - action: utter_onde_encontrar_estagio
+  - story: integra
+    steps:
+      - intent: oque_e_integra
+      - action: utter_oque_e_integra
