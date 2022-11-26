@@ -24,6 +24,14 @@ intents:
   - quando_bolsa_estudo
   - enviar_doc_estatuto
   - enviar_localizacao_bloco_abcd
+  - enviar_localizacao_bloco_e
+  - enviar_localizacao_bloco_f
+  - enviar_localizacao_bloco_g
+  - enviar_localizacao_bloco_l
+  - enviar_localizacao_bloco_s
+  - enviar_localizacao_bloco_m
+  - enviar_localizacao_bloco_n
+  - enviar_localizacao_bloco_k
 
 entities:
   - meajuda
@@ -39,6 +47,14 @@ actions:
   - action_exemplo
   - action_enviar_doc_estatuto
   - action_enviar_localizacao_bloco_abcd
+  - action_enviar_localizacao_bloco_e
+  - action_enviar_localizacao_bloco_f
+  - action_enviar_localizacao_bloco_g
+  - action_enviar_localizacao_bloco_l
+  - action_enviar_localizacao_bloco_s
+  - action_enviar_localizacao_bloco_m
+  - action_enviar_localizacao_bloco_n
+  - action_enviar_localizacao_bloco_k
 
 responses:
   utter_fallback:

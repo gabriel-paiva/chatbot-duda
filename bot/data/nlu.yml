@@ -246,3 +246,43 @@ nlu:
       - Bloco B
       - Bloco C
       - Bloco D
+  - intent: enviar_localizacao_bloco_e
+    examples: |
+      - Onde fica o bloco E
+      - localização bloco E
+      - Bloco E
+  - intent: enviar_localizacao_bloco_f
+    examples: |
+      - Onde fica o bloco F
+      - localização bloco F
+      - Bloco F
+  - intent: enviar_localizacao_bloco_g
+    examples: |
+      - Onde fica o bloco G
+      - localização bloco G
+      - Bloco G
+  - intent: enviar_localizacao_bloco_l
+    examples: |
+      - Onde fica o bloco L
+      - localização bloco L
+      - Bloco L
+  - intent: enviar_localizacao_bloco_s
+    examples: |
+      - Onde fica o bloco S
+      - localização bloco S
+      - Bloco S
+  - intent: enviar_localizacao_bloco_m
+    examples: |
+      - Onde fica o bloco M
+      - localização bloco M
+      - Bloco M
+  - intent: enviar_localizacao_bloco_n
+    examples: |
+      - Onde fica o bloco N
+      - localização bloco N
+      - Bloco N
+  - intent: enviar_localizacao_bloco_k
+    examples: |
+      - Onde fica o bloco K
+      - localização bloco K
+      - Bloco K

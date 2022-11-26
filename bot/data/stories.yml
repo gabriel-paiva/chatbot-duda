@@ -96,3 +96,35 @@ stories:
     steps:
       - intent: enviar_localizacao_bloco_abcd
       - action: action_enviar_localizacao_bloco_abcd
+  - story: enviar_localizacao_bloco_e
+    steps:
+      - intent: enviar_localizacao_bloco_e
+      - action: action_enviar_localizacao_bloco_e
+  - story: enviar_localizacao_bloco_f
+    steps:
+      - intent: enviar_localizacao_bloco_f
+      - action: action_enviar_localizacao_bloco_f
+  - story: enviar_localizacao_bloco_g
+    steps:
+      - intent: enviar_localizacao_bloco_g
+      - action: action_enviar_localizacao_bloco_g
+  - story: enviar_localizacao_bloco_l
+    steps:
+      - intent: enviar_localizacao_bloco_l
+      - action: action_enviar_localizacao_bloco_l
+  - story: enviar_localizacao_bloco_s
+    steps:
+      - intent: enviar_localizacao_bloco_s
+      - action: action_enviar_localizacao_bloco_s
+  - story: enviar_localizacao_bloco_m
+    steps:
+      - intent: enviar_localizacao_bloco_m
+      - action: action_enviar_localizacao_bloco_m
+  - story: enviar_localizacao_bloco_n
+    steps:
+      - intent: enviar_localizacao_bloco_n
+      - action: action_enviar_localizacao_bloco_n
+  - story: enviar_localizacao_bloco_k
+    steps:
+      - intent: enviar_localizacao_bloco_k
+      - action: action_enviar_localizacao_bloco_k
