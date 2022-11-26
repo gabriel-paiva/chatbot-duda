@@ -219,3 +219,30 @@ nlu:
       - quando posso pedir a bolsa social
       - quando posso renovar a bolsa de estudos
       - quando posso pedir a renovação da bolsa
+
+  # Documentos:
+  - intent: enviar_doc_estatuto
+    examples: |
+      - Me envie o estatuto da catolica
+      - qual o estatuto da catolica
+      - documento do estatuto
+      - quero o estatuto da ucb
+  # Localizações:
+  - intent: enviar_localizacao_bloco_abcd
+    examples: |
+      - Onde fica o bloco A
+      - Onde fica o bloco B
+      - Onde fica o bloco C
+      - Onde fica o bloco D
+      - localização bloco A
+      - localização bloco B
+      - localização bloco C
+      - localização bloco D
+      - Me envie o local do bloco A
+      - Me envie o local do bloco B
+      - Me envie o local do bloco C
+      - Me envie o local do bloco D
+      - Bloco A
+      - Bloco B
+      - Bloco C
+      - Bloco D

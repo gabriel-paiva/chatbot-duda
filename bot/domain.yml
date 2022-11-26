@@ -22,6 +22,8 @@ intents:
   - processo_bolsa_estudo
   - percentual_bolsa_estudo
   - quando_bolsa_estudo
+  - enviar_doc_estatuto
+  - enviar_localizacao_bloco_abcd
 
 entities:
   - meajuda
@@ -35,6 +37,8 @@ entities:
 
 actions:
   - action_exemplo
+  - action_enviar_doc_estatuto
+  - action_enviar_localizacao_bloco_abcd
 
 responses:
   utter_fallback:

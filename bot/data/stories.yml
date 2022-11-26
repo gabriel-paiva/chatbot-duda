@@ -84,3 +84,15 @@ stories:
     steps:
       - intent: quando_bolsa_estudo
       - action: utter_quando_bolsa_estudo
+
+  # Documentos:
+  - story: enviar_doc_estatuto
+    steps:
+      - intent: enviar_doc_estatuto
+      - action: action_enviar_doc_estatuto
+
+  # Localizações:
+  - story: enviar_localizacao_bloco_abcd
+    steps:
+      - intent: enviar_localizacao_bloco_abcd
+      - action: action_enviar_localizacao_bloco_abcd
