@@ -23,6 +23,12 @@ intents:
   - percentual_bolsa_estudo
   - quando_bolsa_estudo
   - enviar_doc_estatuto
+  - enviar_doc_manual_do_calouro
+  - enviar_doc_codigo_de_conduta
+  - enviar_doc_carta_de_principios
+  - enviar_doc_regulamento_geral
+  - enviar_doc_normas_procedimentos
+  - enviar_doc_miv
   - enviar_localizacao_bloco_abcd
   - enviar_localizacao_bloco_e
   - enviar_localizacao_bloco_f
@@ -46,6 +52,12 @@ entities:
 actions:
   - action_exemplo
   - action_enviar_doc_estatuto
+  - action_enviar_doc_manual_do_calouro
+  - action_enviar_doc_codigo_de_conduta
+  - action_enviar_doc_carta_de_principios
+  - action_enviar_doc_regulamento_geral
+  - action_enviar_doc_normas_procedimentos
+  - action_enviar_doc_miv
   - action_enviar_localizacao_bloco_abcd
   - action_enviar_localizacao_bloco_e
   - action_enviar_localizacao_bloco_f

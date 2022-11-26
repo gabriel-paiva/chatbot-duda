@@ -90,6 +90,30 @@ stories:
     steps:
       - intent: enviar_doc_estatuto
       - action: action_enviar_doc_estatuto
+  - story: enviar_doc_manual_do_calouro
+    steps:
+      - intent: enviar_doc_manual_do_calouro
+      - action: action_enviar_doc_manual_do_calouro
+  - story: enviar_doc_codigo_de_conduta
+    steps:
+      - intent: enviar_doc_codigo_de_conduta
+      - action: action_enviar_doc_codigo_de_conduta
+  - story: enviar_doc_carta_de_principios
+    steps:
+      - intent: enviar_doc_carta_de_principios
+      - action: action_enviar_doc_carta_de_principios
+  - story: enviar_doc_regulamento_geral
+    steps:
+      - intent: enviar_doc_regulamento_geral
+      - action: action_enviar_doc_regulamento_geral
+  - story: enviar_doc_normas_procedimentos
+    steps:
+      - intent: enviar_doc_normas_procedimentos
+      - action: action_enviar_doc_normas_procedimentos
+  - story: enviar_doc_miv
+    steps:
+      - intent: enviar_doc_miv
+      - action: action_enviar_doc_miv
 
   # Localizações:
   - story: enviar_localizacao_bloco_abcd

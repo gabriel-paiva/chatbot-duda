@@ -227,6 +227,50 @@ nlu:
       - qual o estatuto da catolica
       - documento do estatuto
       - quero o estatuto da ucb
+  - intent: enviar_doc_manual_do_calouro
+    examples: |
+      - Me envie o Manual do Calouro
+      - qual o manual do calouro
+      - documento do manual do calouro
+      - quero o manual do calouro da ucb
+      - manual do calouro
+  - intent: enviar_doc_codigo_de_conduta
+    examples: |
+      - Me envie o Código de Conduta
+      - qual o codigo de conduta
+      - documento do codigo de conduta
+      - quero o codigo de conduta da ucb
+      - codigo de conduta
+  - intent: enviar_doc_carta_de_principios
+    examples: |
+      - Me envie a carta de princípios
+      - quais os principios da ucb
+      - documento carta de principios
+      - quero a carta de principios da ucb
+      - carta de principios
+  - intent: enviar_doc_regulamento_geral
+    examples: |
+      - Me envie o regulamento geral da graduação
+      - qual o regulamento da ucb
+      - documento regulamento geral da graduação
+      - quero o regulamento geral da ucb
+      - regulamento geral da graduação
+  - intent: enviar_doc_normas_procedimentos
+    examples: |
+      - Me envie as normas e procedimentos
+      - quais as normas e procedimentos da ucb
+      - documento normas e procedimentos
+      - quero as normas e procedimentos da ucb
+      - normas e procedimentos
+  - intent: enviar_doc_miv
+    examples: |
+      - Me envie o manual de identidade visual
+      - qual o manual de identidade visual da ucb
+      - documento manual de identidade visual
+      - quero o manual de identidade visual da ucb
+      - manual de identidade visual
+      - miv ucb
+
   # Localizações:
   - intent: enviar_localizacao_bloco_abcd
     examples: |
