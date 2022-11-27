@@ -29,6 +29,7 @@ intents:
   - enviar_doc_regulamento_geral
   - enviar_doc_normas_procedimentos
   - enviar_doc_miv
+  - enviar_doc_calendario
   - enviar_localizacao_bloco_abcd
   - enviar_localizacao_bloco_e
   - enviar_localizacao_bloco_f
@@ -58,6 +59,7 @@ actions:
   - action_enviar_doc_regulamento_geral
   - action_enviar_doc_normas_procedimentos
   - action_enviar_doc_miv
+  - action_enviar_doc_calendario
   - action_enviar_localizacao_bloco_abcd
   - action_enviar_localizacao_bloco_e
   - action_enviar_localizacao_bloco_f

@@ -114,6 +114,10 @@ stories:
     steps:
       - intent: enviar_doc_miv
       - action: action_enviar_doc_miv
+  - story: enviar_doc_calendario
+    steps:
+      - intent: enviar_doc_calendario
+      - action: action_enviar_doc_calendario
 
   # Localizações:
   - story: enviar_localizacao_bloco_abcd

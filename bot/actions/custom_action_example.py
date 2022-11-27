@@ -150,6 +150,23 @@ class ActionEnviarMIV(Action):
                                      " específica que eu farei o máximo para" +
                                      " te responder!")
 
+class ActionEnviarCalendario(Action):
+    def name(self):
+        return "action_enviar_doc_calendario"
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message("Aqui está o documento do Calendário Acadêmico de 2022")
+
+        try:
+            bot = telegram.Bot(token='TELEGRAM_TOKEN')
+            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/12/UCB-CALENDARIO-2022-A4-V5.pdf'
+            bot.sendDocument(chat_id=tracker.sender_id, document=url)
+        except Exception:
+            dispatcher.utter_message("Desculpe, não consegui acessar o documento :/")
+            dispatcher.utter_message("Mas você pode me perguntar sua dúvida" +
+                                     " específica que eu farei o máximo para" +
+                                     " te responder!")
+
 # Localizações:
 
 class ActionEnviarLocalizacaoBlocoABCD(Action):

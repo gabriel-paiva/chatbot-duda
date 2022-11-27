@@ -270,6 +270,14 @@ nlu:
       - quero o manual de identidade visual da ucb
       - manual de identidade visual
       - miv ucb
+  - intent: enviar_doc_calendario
+    examples: |
+      - Me envie o calendario academico
+      - qual o calendario academico de 2022
+      - documento calendario academico
+      - quero o calendario academico de 2022
+      - calendario academico
+      - 2022
 
   # Localizações:
   - intent: enviar_localizacao_bloco_abcd
