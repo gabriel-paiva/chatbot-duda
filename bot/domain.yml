@@ -22,6 +22,9 @@ intents:
   - processo_bolsa_estudo
   - percentual_bolsa_estudo
   - quando_bolsa_estudo
+  - o_que_ava
+  - o_que_portal_estudante
+  - quais_requerimentos_portal_estudante
   - enviar_doc_estatuto
   - enviar_doc_manual_do_calouro
   - enviar_doc_codigo_de_conduta
@@ -216,6 +219,26 @@ responses:
   utter_quando_bolsa_estudo:
     - text: |
         A renovação da bolsa é anual, mas a concessão não há período fixo.
+  utter_o_que_ava:
+    - text: |
+        AVA é o nosso Ambiente Virtual de Aprendizagem. 
+
+        Provido pela empresa canadense Desire 2 Learn, ele pode ser acessado pela WEB ou de qualquer dispositivo móvel.
+
+        Basta baixar o aplicativo Brightspace Pulse e selecionar a fornecedora do seu aprendizado UBEC.
+  utter_o_que_portal_estudante:
+    - text: |
+        O Portal do Estudante é uma ferramenta que a UCB disponibilizou para trazer mais praticidade a você, possibilitando a abertura de vários requerimentos.
+  utter_quais_requerimentos_portal_estudante:
+    - text: |
+        No Portal do Estudante (GOL) você pode abrir requerimentos para:
+          - Declaração de Escolaridade;
+          - Declaração de Passe Estudantil;
+          - Declaração de Provável Formando; 
+          - Horário do Estudante Completo; 
+          - Histórico Escolar; 
+          - Declaração Financeira; 
+          - Extrato para Imposto de Renda;
 
   # utters fallback
   utter_nlu_fallback:

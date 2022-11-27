@@ -219,6 +219,32 @@ nlu:
       - quando posso pedir a bolsa social
       - quando posso renovar a bolsa de estudos
       - quando posso pedir a renovação da bolsa
+  - intent: o_que_ava
+    examples: |
+      - o que é o ava?
+      - como utilizar o ava
+      - como usar o ava
+      - como uso o ava
+      - como utilizo o ava
+      - para que serve o ava
+      - o que o ava faz
+      - ava
+  - intent: o_que_portal_estudante
+    examples: |
+      - o que é o gol?
+      - que é o portal do estudante
+      - como utilizar o gol
+      - como utilizar o portal do estudante
+      - para que serve o gol
+      - para que serve o portal do estudante
+      - o que o gol faz
+      - o que o portal do estudante faz
+  - intent: quais_requerimentos_portal_estudante
+    examples: |
+      - que requerimentos posso abrir no gol
+      - que requerimentos posso abrir no portal do estudante
+      - quais documentos consigo no portal do estudante
+      - quais documentos consigo no gol
 
   # Documentos:
   - intent: enviar_doc_estatuto

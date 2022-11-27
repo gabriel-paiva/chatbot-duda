@@ -84,6 +84,18 @@ stories:
     steps:
       - intent: quando_bolsa_estudo
       - action: utter_quando_bolsa_estudo
+  - story: o_que_ava
+    steps:
+      - intent: o_que_ava
+      - action: utter_o_que_ava
+  - story: o_que_portal_estudante
+    steps:
+      - intent: o_que_portal_estudante
+      - action: utter_o_que_portal_estudante
+  - story: quais_requerimentos_portal_estudante
+    steps:
+      - intent: quais_requerimentos_portal_estudante
+      - action: utter_quais_requerimentos_portal_estudante
 
   # Documentos:
   - story: enviar_doc_estatuto
