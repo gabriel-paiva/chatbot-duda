@@ -245,6 +245,53 @@ nlu:
       - que requerimentos posso abrir no portal do estudante
       - quais documentos consigo no portal do estudante
       - quais documentos consigo no gol
+  - intent: como_revisao_nota
+    examples: |
+      - como fazer revisão de nota?
+      - como fazer revisão de menção?
+      - revisar nota
+      - revisar menção
+  - intent: como_transferencia_interna
+    examples: |
+      - como funciona a transferência interna
+      - como fazer transferência interna
+      - posso fazer transferencia interna
+      - transferencia interna
+  - intent: como_trancamento_matricula
+    examples: |
+      - como funciona o trancamento de matricula
+      - como fazer o trancamento de matricula
+      - como trancar a matricula
+      - poso trancar a matricula
+      - trancamento de matricula
+      - o que é o trancamento de matricula
+  - intent: como_aproveitamento_estudos
+    examples: |
+      - como fazer aproveitamento de estudos
+      - como aproveitar disciplinas
+      - posso aproveitar disciplinas
+      - posso fazer aproveitamento de estudos
+      - como aproveitar matérias
+      - posso aproveitar matérias
+      - posso fazer aproveitamento de matérias
+      - como fazer aproveitamento de matérias
+  - intent: quais_situacoes_academicas
+    examples: |
+      - quais são as situações acadêmicas
+      - situações acadêmicas
+      - situação do estudante
+  - intent: o_que_atividades_complementares
+    examples: |
+      - o que são atividades complementares
+      - como funcionam as atividades complementares
+      - atividades complementares
+  - intent: quais_atendimento_ucb
+    examples: |
+      - quais são os canais de atendimento da ucb
+      - canais de atendimento
+      - onde posso tirar dúvidas
+      - atendimento estudantil
+      - atende
 
   # Documentos:
   - intent: enviar_doc_estatuto

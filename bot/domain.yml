@@ -25,6 +25,13 @@ intents:
   - o_que_ava
   - o_que_portal_estudante
   - quais_requerimentos_portal_estudante
+  - como_revisao_nota
+  - como_transferencia_interna
+  - como_trancamento_matricula
+  - como_aproveitamento_estudos
+  - quais_situacoes_academicas
+  - o_que_atividades_complementares
+  - quais_atendimento_ucb
   - enviar_doc_estatuto
   - enviar_doc_manual_do_calouro
   - enviar_doc_codigo_de_conduta
@@ -239,6 +246,57 @@ responses:
           - Histórico Escolar; 
           - Declaração Financeira; 
           - Extrato para Imposto de Renda;
+  utter_como_revisao_nota:
+    - text: |
+        Primeiro, atente-se ao prazo estabelecido em calendário acadêmico. 
+
+        Uma vez que a nota esteja consolidada no histórico escolar, você deverá protocolar processo no ATENDE no prazo estipulado. 
+
+        Não serão acatadas solicitações fora de prazo, nem para disciplinas de semestres anteriores. 
+
+        Não existe na legislação brasileira o abono de faltas. Assim, não cabe revisão das reprovações por faltas.
+  utter_como_transferencia_interna:
+    - text: |
+        As condições para Transferência Interna são estabelecidas em edital. 
+
+        Desde que você atenda aos requisitos do edital e manifeste interesse pela transferência, poderá submeter-se ao processo seletivo. 
+
+        A adaptação curricular deverá ser objeto de processo de equivalência de disciplinas, após o processo de matrícula do estudante.
+  utter_como_trancamento_matricula:
+    - text: |
+        O Trancamento de Matrícula é a suspensão dos estudos no semestre corrente. 
+
+        O período de trancamento é estabelecido no Calendário Acadêmico. 
+
+        Para solicitações fora do prazo, deverá haver comprovação da justificativa.
+  utter_como_aproveitamento_estudos:
+    - text: |
+        É possível fazer o aproveitamento de disciplinas cursadas em outro curso e/ou outra Instituição de Ensino Superior (IES). 
+
+        Para tanto, deverá apresentar o histórico escolar e as ementas das disciplinas já cursadas. 
+
+        Conforme a Resolução 652007 - Consepe, são passíveis de aproveitamento as disciplinas cursadas nos últimos oito anos, respeitadas a carga horária, a quantidade de créditos e o conteúdo programático.
+
+        As coordenações dos cursos analisam e decidem pelo deferimento ou não dos pedidos de aproveitamento de estudos, inclusive a extensão ou redução do prazo de 8 anos, baseado no tipo de disciplina e experiência do requerente.
+  utter_quais_situacoes_academicas:
+    - text: |
+        Um estudante por estar nas seguintes situações: Matriculado, Desistente, Trancado ou Desligado.
+  utter_o_que_atividades_complementares:
+    - text: |
+        As atividades complementares são componentes curriculares obrigatórios, de exigência do Ministério da Educação para a complementação da carga horária total do curso, com o objetivo de enriquecer e complementar a formação do estudante, por meio da diversificação das experiências, dentro e fora do ambiente universitário. 
+
+        Os estudantes que forem obrigados a cumpri-las, em função do currículo do curso, devem fazê- -lo ao longo de sua formação. 
+
+        Informações relativas à normatização destas atividades, as horas necessárias a cada curso de graduação, bem como a distribuição destas horas, devem ser obtidas nas coordenações dos cursos.
+  utter_quais_atendimento_ucb:
+    - text: |
+        Além de mim, você pode contatar os seguintes canais:
+
+        - WhatsApp Business: (61) 3356 9000; 
+
+        - Central de Atendimento: 3356 9000 - segunda a sexta de 8h às 20h40;
+
+        - Atendimento presencial no ATENDE –Atendimento Estudantil - segunda a quinta de 8h às 21h e na sexta 8h às 20h.
 
   # utters fallback
   utter_nlu_fallback:

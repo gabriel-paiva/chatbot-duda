@@ -96,6 +96,34 @@ stories:
     steps:
       - intent: quais_requerimentos_portal_estudante
       - action: utter_quais_requerimentos_portal_estudante
+  - story: como_revisao_nota
+    steps:
+      - intent: como_revisao_nota
+      - action: utter_como_revisao_nota
+  - story: como_transferencia_interna
+    steps:
+      - intent: como_transferencia_interna
+      - action: utter_como_transferencia_interna
+  - story: como_trancamento_matricula
+    steps:
+      - intent: como_trancamento_matricula
+      - action: utter_como_trancamento_matricula
+  - story: como_aproveitamento_estudos
+    steps:
+      - intent: como_aproveitamento_estudos
+      - action: utter_como_aproveitamento_estudos
+  - story: quais_situacoes_academicas
+    steps:
+      - intent: quais_situacoes_academicas
+      - action: utter_quais_situacoes_academicas
+  - story: o_que_atividades_complementares
+    steps:
+      - intent: o_que_atividades_complementares
+      - action: utter_o_que_atividades_complementares
+  - story: quais_atendimento_ucb
+    steps:
+      - intent: quais_atendimento_ucb
+      - action: utter_quais_atendimento_ucb
 
   # Documentos:
   - story: enviar_doc_estatuto
