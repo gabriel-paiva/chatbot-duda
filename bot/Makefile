@@ -18,7 +18,7 @@ clean:
 
 install:
 	pip install --upgrade pip && \
-	pip install -r requirements.txt && \
+	pip --default-timeout=300 install -r requirements.txt && \
 	pip install --upgrade aio-pika
 
 # RUN
